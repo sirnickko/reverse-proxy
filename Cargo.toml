@@ -1,0 +1,15 @@
+[package]
+name    = "reverse-proxy"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rproxy"
+path = "src/main.rs"
+
+[lib]
+name = "rproxy"
+path = "src/lib.rs"
+
+# Pure std -- no external crates.
+[dependencies]
